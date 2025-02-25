@@ -6,5 +6,10 @@ public class App {
 
         Reader reader = new Reader();
         ArrayList<Car> cars = reader.fileReader();
+
+        if(cars.size()>0){
+            Honda honda = new Honda();
+            honda.printHondaCars(cars);
+        }
     }
 }

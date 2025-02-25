@@ -1,12 +1,11 @@
 import java.time.LocalDate;
 
 public class Car {
-    String plate;
+    String licensePlate;
     String brand;
-    Integer year;
+    Integer modelYear;
     String fuelType;
-    Double price;
-    Integer climate;
-    LocalDate licenseDate;
-
+    Double sellingPrice;
+    Boolean hasClimate;
+    LocalDate validUntil;
 }

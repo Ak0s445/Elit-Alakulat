@@ -11,5 +11,7 @@ public class App {
             Honda honda = new Honda();
             honda.printHondaCars(cars);
         }
+        Sumdata sumdata = new Sumdata();
+        sumdata.processAllData(cars);
     }
 }
